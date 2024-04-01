@@ -10,15 +10,15 @@ require("jquery-ui-sortable");
 require("formBuilder");
 
 const formData = [
-  {
-    type: "header",
-    subtype: "h1",
-    label: "formBuilder in React"
-  },
-  {
-    type: "paragraph",
-    label: "This is a demonstration of formBuilder running in a React project."
-  }
+  // {
+  //   type: "header",
+  //   subtype: "h1",
+  //   label: "formBuilder in React"
+  // },
+  // {
+  //   type: "paragraph",
+  //   label: "This is a demonstration of formBuilder running in a React project."
+  // }
 ];
 
 /* 
@@ -51,7 +51,7 @@ class FormBuilder extends Component {
       <div className="bg-gray-100 p-4">
       <div className="bg-white p-4 rounded-md shadow-md">
         <div className="alert alert-info mb-4">
-          This is an example of how to use formBuilder with React. The JSON data for this form was set programmatically.
+          Use the Components from the right end of the page and drag in below space to create a form
         </div>
         <div id="fb-editor" ref={this.fb} />
       </div>
